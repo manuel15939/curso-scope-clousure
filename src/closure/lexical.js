@@ -11,9 +11,13 @@ function myFunction(){
         function child (){
             console.log(inner,myNumber,myGlobal);
         }
-        return child
+        return child ();
     }
-    return parent
+    return parent();
 }
 
 myFunction();
+
+
+
+
